@@ -6,9 +6,9 @@
 
 <p> this creates an react app</p>
 
-#### creating react app using vite 
-<h2> vite : <ol> fast developement</ol>
+### creating react app using vite 
+<h3> vite : <ol > fast developement</ol>
 <ol> speed and efficiency</ol>
- </h2>
+ </h3>
 
 

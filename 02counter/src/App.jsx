@@ -6,7 +6,7 @@ import './App.css'
 
 function App() {
   // creating a hooks using state function 
-  const [counter, setCounter] = useState(15)
+  let [counter, setCounter] = useState(15)
 
   // creating a function {addValue} for add value button
   const addValue = () => {
@@ -26,16 +26,22 @@ function App() {
     setCounter (counter -1)
   }
 
+  const reset = ()=> {
+    setCounter(15)
+  }
+
   return (
     <>
-     <h1> Ranvir is Working on react</h1>
+     <div id = "div">
+      <h1> Ranvir is Working on react</h1>
      <h2> Counter Value : {counter} </h2>
-     <button onClick={addValue}>
+     <button id = "addbutton" onClick={addValue}>
       Add Value </button>
      <br />
-     <button onClick={subtract}> Decrease Value </button>
-     <p> footer : {counter} </p>
-
+     <button id = "subbutton" onClick={subtract}> Decrease Value </button>
+     <br />
+     <button id="resetbutton"  onClick={reset}> Reset to Original </button>
+      </div>
      </>
   )
 }

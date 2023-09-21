@@ -6,9 +6,11 @@
 
 <p> this creates an react app</p>
 
-### creating react app using vite 
-<h3> vite : <ol > fast developement</ol>
+## creating react app using vite
+
+<h4> vite : <ol > fast developement</ol>
 <ol> speed and efficiency</ol>
- </h3>
-
-
+ </h4>
+#### to create 
+``` npm create vite@latest
+```

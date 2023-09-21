@@ -11,6 +11,12 @@
 <h4> vite : <ol > fast developement</ol>
 <ol> speed and efficiency</ol>
  </h4>
-#### to create
+
+
+#### To create
 
 `npm create vite@latest`
+
+## Hooks 
+
+> 

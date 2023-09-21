@@ -11,5 +11,6 @@
 <h4> vite : <ol > fast developement</ol>
 <ol> speed and efficiency</ol>
  </h4>
-<h3> to create </h3>
-` npm create vite@latest `
+#### to create
+
+`npm create vite@latest`

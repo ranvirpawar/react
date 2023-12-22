@@ -27,3 +27,40 @@
 #div {
   text-align: center;
 }
+
+#buttons{
+  display :flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+#addbutton{
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  /* background-color: green; */
+  color: white;
+  font-size: 20px;
+  border: none;
+}
+
+#subbutton{
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  /* background-color: red; */
+  color: white;
+  font-size: 20px;
+  border: none;
+}
+
+#resetbutton{
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  /* background-color: peachpuff; */
+  color: white;
+  font-size: 20px;
+  border: none;
+}
+
